@@ -15,7 +15,8 @@
             <input type="date" id="tanggal" name="tanggal" class="form-control" value="{{ $penghuni->tanggal }}" required>
         </div>
         <button type="submit" class="btn btn-primary">Simpan Perubahan</button>
-        <a href="{{ route('detaildatapenghuni') }}" class="btn btn-secondary">Batal</a>
+        <!-- <a href="{{ route('detaildatapenghuni') }}" class="btn btn-secondary">Batal</a> -->
+        <a href="{{ route('dataPenghuni') }}" class="btn btn-secondary">Batal</a>
 
         <!-- Note kecil di bawah -->
         <div class="mt-3">
